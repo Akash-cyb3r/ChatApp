@@ -4,7 +4,7 @@ import { Avatar, IconButton } from "@material-ui/core";
 import DonutLargeIcon from "@material-ui/icons/DonutLarge";
 import ChatIcon from "@material-ui/icons/Chat";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
-import { SearchOutlined } from "@material-ui/icons";
+
 import "./Sidewindow.css";
 import SidewindowChat from "./SidewindowChat";
 
@@ -28,7 +28,6 @@ function Sidewindow() {
 
       <div className="sidewindow_search">
         <div className="sidewindow__searchContainer">
-          <SearchOutlined />
           <input placeholder="search or add chat" type="text" />
         </div>
       </div>
